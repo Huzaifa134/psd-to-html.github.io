@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+:root {
+  --yellow-color: #ffb400;
+  --secondary-color: #fff;
+  --primary-color: #482a80;
+}
+
+/* a="waqas" */
+.container {
+  font-family: "Ubuntu", sans-serif;
+}
+.header {
+  background: url(./img/header.png), no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: -5rem;
+}
+
+.yellow {
+  width: 50%;
+  height: 0.5rem;
+  background-color: var(--yellow-color);
+}
+.content {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.content h1 {
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5.5rem;
+  letter-spacing: 0.6rem;
+}
+
+.content p {
+  font-size: 2.3rem;
+  width: 855px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  line-height: 2;
+  font-weight: bold;
+}
+.inner-content-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.inner-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0.7rem 6rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#video {
+  border: 1px solid var(--secondary-color);
+  height: 45vh;
+}
+.inner-image {
+  height: 1rem;
+  width: 1.6rem;
+  margin-left: 1.5rem;
+}
+
+/* ========================================= SERVICES ================================== */
+.serv-cont {
+  text-align: center;
+  margin-top: 5rem;
+  opacity: 0.7;
+}
+.serv-cont h1 {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+}
+.serv-cont p {
+  margin-bottom: 1rem;
+  max-width: 760px;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.video2 {
+  height: 65vh;
+}
+
+/* ============================= INFLUENCER ======================================= */
+
+.influencer {
+  height: 30vh;
+  width: 100%;
+  background-color: var(--yellow-color);
+  text-align: center;
+  padding-top: 3rem;
+}
+.influencer-text h1 {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  padding-bottom: 2rem;
+}
+.input-field {
+  display: flex;
+  justify-content: center;
+}
+
+.input-field input {
+  padding: 1rem 4rem;
+  text-align: center;
+  margin-right: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.input-field a {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.76rem 5rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+}
+
+/* ========================= logo section ========== */
+.seo {
+  text-align: center;
+  padding: 4rem 5rem;
+  background-color: #f0f0f0;
+}
+.seo h1 {
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.seo-logo img {
+  height: 4rem;
+  width: 4rem;
+  margin-bottom: 1.5rem;
+}
+.seo-logo h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.seo-logo p {
+  line-height: 1.6;
+}
+.first-three-logos,
+.second-three-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 20vw;
+  margin: 2.5rem;
+}
+
+/* ----------------------  services   --------------    */
+
+.service-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.service-img img {
+  height: 23rem;
+  width: 30rem;
+}
+.service-content {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 15rem;
+}
+.service-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.service-content p {
+  line-height: 2;
+}
+
+.service-content a {
+  background-color: black;
+  color: var(--secondary-color);
+  padding: 0.76rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* ---------------------- packages -------------------- */
+
+.packages {
+  text-transform: uppercase;
+  background-color: var(--yellow-color);
+  height: 23vh;
+  width: 100%;
+  text-align: center;
+  /* padding-top: 4rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+.package-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.packages span {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+/* ================== package plan =========== */
+
+.package-plan {
+  background: url(./img/package_plan.png) no-repeat center center/cover;
+  /* height: 100vh; */
+  width: 100%;
+  text-align: center;
+}
+
+.package-plan h1 {
+  color: var(--secondary-color);
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+.package1-parent {
+  width: 35rem;
+  border-radius: 0.7rem;
+  margin: 3rem;
+
+  background-color: var(--secondary-color);
+}
+.content1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: center; */
+  height: 7rem;
+  background-color: #f0f0f0;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+.price {
+  height: 7rem;
+  clip-path: polygon(48% 0, 100% 0%, 100% 100%, 0% 100%);
+  background-color: var(--yellow-color);
+  text-align: center;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-top-right-radius: 0.7rem;
+}
+.price h1 {
+  font-size: 3rem;
+  padding-left: 5rem;
+  /* margin-left: 5rem; */
+}
+.price h1 .small-text {
+  font-size: 1.5rem;
+}
+.package1 {
+  margin-left: 1rem;
+  text-align: left;
+  /* width: 50%; */
+}
+
+.package1 h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  /* width: 50%; */
+}
+
+.check-text {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.check-text img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.5rem;
+}
+.border {
+  border-bottom: 1px dotted #333;
+}
+.content2 {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  background-color: var(--primary-color);
+  width: 10rem;
+  margin: 1rem;
+  padding: 0.7rem;
+  margin-left: 4rem;
+  border-radius: 0.4rem;
+}
+.button a {
+  /* align-self: flex-start; */
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.package2-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.work h1 {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.work span {
+  color: var(--primary-color);
+}
+.work p {
+  margin: 1.5rem auto;
+  width: 90%;
+  text-align: center;
+}
+
+.no {
+  height: 3.5rem;
+  width: 4rem;
+  background-color: #333;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.no2 {
+  background-color: #482a80;
+}
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+.border-dotted {
+  border: 1px dotted var(--yellow-color);
+  margin-top: -2rem;
+}
+
+.logo-work {
+  margin: 0 auto;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+.signup {
+  width: 30%;
+  text-align: center;
+}
+.signup h5 {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.signup p {
+  width: 70%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.testimonial {
+  text-align: center;
+  margin-top: 5rem;
+  background-color: #f0f0f0;
+  /* padding: 3rem 0; */
+}
+
+.testimonial h1 {
+  padding: 5rem 0;
+}
+
+.client-reviews {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 5rem;
+}
+.review1 {
+  height: 16rem;
+  width: 30rem;
+  padding: 3rem;
+  border: 2.5px solid var(--primary-color);
+  margin: 1.5rem;
+}
+
+.review2 {
+  height: 18rem;
+  width: 30rem;
+  padding: 3rem;
+  border: 2.5px solid var(--yellow-color);
+  margin: 1.5rem 0;
+}
+.client-name {
+  font-weight: bold;
+  margin-top: 1rem;
+  float: right;
+  margin-right: 2rem;
+}
+
+.promotion {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.promotion h1 {
+  margin-bottom: 3rem;
+}
+
+.promotion img {
+  height: 15rem;
+  width: 70%;
+}
+
+.footer {
+  background: url(./img/footer.png) no-repeat center center/cover;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+.footer img {
+  height: 4rem;
+  width: 8rem;
+}
+
+.client-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  margin-top: 1rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 5rem;
+  font-size: 1.5rem;
+}
+.contact img {
+  margin-right: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.social-icons i {
+  height: 1rem;
+  width: 1rem;
+  color: var(--yellow-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 3rem;
+  padding: 1rem;
+}
+.icon:hover,
+.social-icons i:hover {
+  background-color: var(--yellow-color);
+  color: var(--secondary-color);
+}
+
+.copyright {
+  height: 3rem;
+  width: 100%;
+  background-color: var(--yellow-color);
+  text-align: center;
+  padding-top: 0.7rem;
+  color: var(--secondary-color);
+}
